@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+#title {
+  height: 10vh;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100vw;
+}
+
+#container {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url("https://images.unsplash.com/photo-1490598000245-075175152d25?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 40%;
+}
+.rightContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 40%;
+}
+
+.leftComp {
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+  overflow: hidden;
+  margin-bottom: 8%;
+}
+.rightComp {
+  overflow: hidden;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+}
+h1 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+h2 {
+  color: rgb(22, 3, 126);
+  font-size: 25px;
+  margin: 10px;
+}
+
+input {
+  height: 35px;
+  width: 50%;
+  border-radius: 8px;
+  background-color: ghostwhite;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  padding: 7px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.resImage {
+  border: violet 20px;
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+}
+
+#temp {
+  background-color: rgb(61, 61, 61);
+  height: 55px;
+  border-radius: 35px;
+  color: rgba(255, 0, 0, 0.925);
+  padding: 10px;
+  font-size: 30px;
+}
+#desc {
+  color: brown;
+  font-size: 30px;
+}
+#city {
+  color: rgb(0, 59, 66);
+}
+#myName {
+  color: black;
+}
